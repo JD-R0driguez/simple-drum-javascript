@@ -32,7 +32,6 @@ function handleMouseDown() {
   
 function handleMouseUp(){
     this.classList.remove("pressed");
-    // this.disable = false;
 }
 
 const keys = document.getElementsByClassName("drum");
