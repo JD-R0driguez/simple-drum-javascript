@@ -1,56 +1,39 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #301742;
 }
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  font-size: 4rem;
+  color: #f7f7f7;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
 
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Arvo', cursive;
+  color: #ef8172;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 20px;
 }
 
 footer {
-  color: #DBEDF3;
+  color: #010101;
   font-family: sans-serif;
-}
-
-.w {
-
-}
-
-.a {
-
-}
-
-.s {
-
-}
-
-.d {
-
-}
-
-.j {
-
-}
-
-.k {
-
-}
-
-.l {
-
-}
-
-.set {
-  margin: 10% auto;
-}
-
-.game-over {
-  background-color: red;
-  opacity: 0.8;
 }
 
 .pressed {
@@ -58,24 +41,33 @@ footer {
   opacity: 0.5;
 }
 
-.red {
-  color: red;
-}
-
-.drum {
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
+.drum{
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 2;
+  font-size: 4rem;
   font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
   width: 150px;
   height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 254, 254);
+  font-weight: 900;
+}
+
+.gradient-border {
+  border: 5px solid;
+  border-image: linear-gradient(0deg, #ffbf00, #ff4c68, #ef8172);
+  border-image-slice: 1;
+}
+
+span {
+  font-size: 1rem;
+  color: #ef8172;
+}
+
+button.drum{
+  padding-top: 25px;
+  padding-left: 10px;
+  justify-content: flex-start;
+  padding-bottom: 24px;
 }

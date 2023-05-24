@@ -20,18 +20,18 @@ function playAudio(key){
 }
 
 function buttonAnimation(pressedKey){
-    console.log(pressedKey);
     const element = document.querySelector("." + pressedKey);
     element.classList.toggle("pressed");
 }
 
 function handleMouseDown() {
-    const key = this.innerHTML;
-    playAudio(key);
+    const key = this.firstChild.textContent;
+    const keyLowercase = key.toLowerCase();
+    playAudio(keyLowercase);
   }
   
 function handleMouseUp(){
-    this.classList.remove("pressed");
+  this.classList.remove("pressed");
 }
 
 const keys = document.getElementsByClassName("drum");
