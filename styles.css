@@ -71,3 +71,22 @@ button.drum{
   justify-content: flex-start;
   padding-bottom: 24px;
 }
+
+footer {
+  font-size: 1rem;
+  margin:30px;
+  color: #ef8172;
+}
+
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+footer p{
+  margin-top: 0px;
+}
