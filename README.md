@@ -24,7 +24,7 @@ You can see the live demo of the drum kit exercise [here](https://jd-r0driguez.g
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/jd-r0driguez/drum-kit.git
+   git clone https://github.com/jd-r0driguez/simple-drum-javascript.git
 
 2. Open the index.html file in your web browser.
 
